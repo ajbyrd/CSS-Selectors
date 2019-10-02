@@ -1,0 +1,26 @@
+header {
+    border: solid 1px goldenrod;
+}
+
+nav {
+    list-style-type: none;
+}
+
+nav li{
+    display: inline;
+    margin: 10px;
+}
+
+a .disabled{
+    color: purple;
+}
+
+.disabled {
+    color:gray;
+}
+
+.active {
+    color: yellow;
+}
+
+

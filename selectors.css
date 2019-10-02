@@ -1,16 +1,20 @@
+/* Addding a border around the header */
 header {
     border: solid 1px goldenrod;
 }
 
+/*removing the bulleted list from the nav*/
 nav {
     list-style-type: none;
 }
 
+/* Changing the nav to display horizontally*/
 nav li{
     display: inline;
     margin: 10px;
 }
 
+/* Changing the months to differernt colors using sibling/decendant selectors*/
 a + .disabled{
     color: gray;
 }
@@ -28,7 +32,7 @@ a .disabled {
     color: yellow;
 }
 
-
+/* Changing the text to differernt colors using sibling/decendant selectors*/
 .parent div div{
     color:red;
 }
@@ -37,6 +41,7 @@ a .disabled {
     color: blue;
 }
 
+/* Changing the text to differernt background colors using sibling/decendant selectors*/
 .parent div > h4:first-of-type{
     background-color: red;
 }
@@ -45,16 +50,19 @@ a .disabled {
     background-color: blue;
 }
 
+/* Adding a border to the direct descendant of grandparent class*/
 .grandparent > h4 {
     border: solid 1px;
     border-radius: 5px;
 }
 
+/* changing the text properties of the promo class*/
 .promo{
     font-weight: bold;
     color: gold;
 }
 
+/* Changing the height of the text boxes*/
 input{
     height: 25px;
 }

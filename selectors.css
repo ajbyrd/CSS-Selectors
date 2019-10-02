@@ -12,11 +12,11 @@ nav li{
 }
 
 a .disabled{
-    color: purple;
+    color: gray;
 }
 
 .disabled {
-    color:gray;
+    color:purple;
 }
 
 .active {
@@ -24,3 +24,32 @@ a .disabled{
 }
 
 
+.parent div div{
+    color:red;
+}
+
+.parent div + h4 + div {
+    color: blue;
+}
+
+.parent div > h4:first-of-type{
+    background-color: red;
+}
+
+.parent div > h4:last-of-type{
+    background-color: blue;
+}
+
+.grandparent > h4 {
+    border: solid 1px;
+    border-radius: 5px;
+}
+
+.promo{
+    font-weight: bold;
+    color: gold;
+}
+
+input{
+    height: 25px;
+}

@@ -11,13 +11,18 @@ nav li{
     margin: 10px;
 }
 
-a .disabled{
+a + .disabled{
+    color: gray;
+}
+
+a .disabled {
     color: gray;
 }
 
 .disabled {
     color:purple;
 }
+
 
 .active {
     color: yellow;
